@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Seu Nome ou Organização//Seu Produto//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:event1@example.com
+DTSTAMP:20231024T120000Z
+DTSTART:20231101T090000Z
+DTEND:20231101T100000Z
+SUMMARY:Reunião de Equipe
+DESCRIPTION:Reunião para discutir o progresso do projeto.
+LOCATION:Sala de Conferências
+END:VEVENT
+
+BEGIN:VEVENT
+UID:event2@example.com
+DTSTAMP:20231024T120000Z
+DTSTART:20231102T110000Z
+DTEND:20231102T120000Z
+SUMMARY:Apresentação do Relatório
+DESCRIPTION:Apresentação do relatório trimestral para a diretoria.
+LOCATION:Auditório Principal
+END:VEVENT
+
+BEGIN:VEVENT
+UID:event3@example.com
+DTSTAMP:20231024T120000Z
+DTSTART:20231105T150000Z
+DTEND:20231105T160000Z
+SUMMARY:Reunião com Cliente
+DESCRIPTION:Reunião para discutir novos requisitos com o cliente.
+LOCATION:Escritório do Cliente
+END:VEVENT
+
+BEGIN:VTODO
+UID:task1@example.com
+DTSTAMP:20231024T120000Z
+SUMMARY:Enviar E-mail de Acompanhamento
+DESCRIPTION:Enviar e-mail de acompanhamento sobre a reunião de equipe.
+DUE:20231031T170000Z
+STATUS:NEEDS-ACTION
+END:VTODO
+
+BEGIN:VTODO
+UID:task2@example.com
+DTSTAMP:20231024T120000Z
+SUMMARY:Preparar Apresentação
+DESCRIPTION:Preparar a apresentação do relatório trimestral.
+DUE:20231101T170000Z
+STATUS:NEEDS-ACTION
+END:VTODO
+
+BEGIN:VTODO
+UID:task3@example.com
+DTSTAMP:20231024T120000Z
+SUMMARY:Revisar Documentação do Projeto
+DESCRIPTION:Revisar a documentação do projeto antes da reunião com o cliente.
+DUE:20231104T170000Z
+STATUS:NEEDS-ACTION
+END:VTODO
+
+END:VCALENDAR
